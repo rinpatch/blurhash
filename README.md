@@ -1,6 +1,9 @@
 # Blurhash
 
-**TODO: Add description**
+A pure Elixir implementation of the [Blurhash](https://blurha.sh/) algorithm.
+
+## Usage
+
 
 ## Installation
 
