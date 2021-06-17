@@ -2,7 +2,7 @@
 
 A pure Elixir implementation [Blurhash](https://blurha.sh/) decoder/encoder.
 
-Documentation: <https://hexdocs.pm/blurhash>
+Documentation: <https://hexdocs.pm/rinpatch_blurhash>
 
 ## Installation
 
