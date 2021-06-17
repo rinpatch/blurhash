@@ -6,8 +6,22 @@ defmodule Blurhash.MixProject do
       app: :blurhash,
       version: "0.1.0",
       elixir: "~> 1.10",
+      package: package(),
       start_permanent: Mix.env() == :prod,
       deps: deps()
+    ]
+  end
+
+  def package do
+    [
+      maintainers: ["rinpatch"],
+      licenses: ["MIT"],
+      description: "A pure Elixir blurhash decoder/encoder.",
+      links: %{
+        "Github" => "https://github.com/rinpatch/blurhash",
+        "Issues" => "https://github.com/rinpatch/blurhash/issues",
+      },
+      name: :rinpatch_blurhash
     ]
   end
 

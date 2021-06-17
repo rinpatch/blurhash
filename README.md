@@ -1,6 +1,6 @@
 # Blurhash
 
-A pure Elixir implementation of the [Blurhash](https://blurha.sh/) algorithm.
+A pure Elixir implementation [Blurhash](https://blurha.sh/) decoder/encoder.
 
 Documentation: <https://hexdocs.pm/blurhash>
 
@@ -11,7 +11,7 @@ Add Blurhash to your `mix.exs`:
 ```elixir
 def deps do
   [
-    {:blurhash, "~> 0.1.0"}
+    {:rinpatch_blurhash, "~> 0.1.0"}
   ]
 end
 ```
@@ -21,7 +21,7 @@ If you would like to use the `downscale_and_decode/3` function, you also need to
 ```elixir
 def deps do
   [
-    {:blurhash, "~> 0.1.0"},
+    {:rinpatch_blurhash, "~> 0.1.0"},
     {:mogrify, "~> 0.8.0"}
   ]
 end
