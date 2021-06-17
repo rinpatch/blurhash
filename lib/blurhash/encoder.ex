@@ -80,7 +80,7 @@ defmodule Blurhash.Encoder do
   end
 
   defp encode_ac([]) do
-    Base83.encode_number(0, 1)
+    {Base83.encode_number(0, 1), ""}
   end
 
   defp encode_ac(ac) do
