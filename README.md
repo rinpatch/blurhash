@@ -11,7 +11,7 @@ Add Blurhash to your `mix.exs`:
 ```elixir
 def deps do
   [
-    {:rinpatch_blurhash, "~> 0.1.0"}
+    {:blurhash, "~> 0.1.0", hex: :rinpatch_blurhash}
   ]
 end
 ```
@@ -21,7 +21,7 @@ If you would like to use the `downscale_and_decode/3` function, you also need to
 ```elixir
 def deps do
   [
-    {:rinpatch_blurhash, "~> 0.1.0"},
+    {:blurhash, "~> 0.1.0", hex: :rinpatch_blurhash},
     {:mogrify, "~> 0.8.0"}
   ]
 end
