@@ -4,7 +4,7 @@ defmodule Blurhash.MixProject do
   def project do
     [
       app: :blurhash,
-      version: "0.1.0",
+      version: "0.1.1",
       elixir: "~> 1.10",
       package: package(),
       start_permanent: Mix.env() == :prod,
@@ -33,7 +33,7 @@ defmodule Blurhash.MixProject do
 
   defp deps do
     [
-      {:mogrify, "~> 0.8.0", optional: true},
+      {:mogrify, ">= 0.0.0", optional: true},
       {:ex_doc, "~> 0.24", only: :dev, runtime: false}
     ]
   end
